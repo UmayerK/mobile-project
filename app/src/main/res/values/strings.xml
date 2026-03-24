@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Mini Games</string>
+
+    <!-- Main Hub -->
+    <string name="hub_title">🎮 Mini Games</string>
+    <string name="snake_title">🐍 Snake</string>
+    <string name="snake_desc">Classic snake game — eat food, grow longer!</string>
+    <string name="tictactoe_title">❌⭕ Tic Tac Toe</string>
+    <string name="tictactoe_desc">Two-player classic on a 3×3 grid</string>
+    <string name="numguess_title">🔢 Number Guess</string>
+    <string name="numguess_desc">Guess the secret number between 1 and 100</string>
+    <string name="reflex_title">⚡ Reflex Test</string>
+    <string name="reflex_desc">Tap when it lights up — how fast are you?</string>
+
+    <!-- Snake -->
+    <string name="score_label">Score: %d</string>
+    <string name="game_over">Game Over! Score: %d</string>
+    <string name="restart">Restart</string>
+    <string name="swipe_to_play">Swipe or use D-pad to move</string>
+
+    <!-- Tic Tac Toe -->
+    <string name="player_turn">Player %s\'s Turn</string>
+    <string name="player_wins">Player %s Wins! 🎉</string>
+    <string name="draw_game">It\'s a Draw!</string>
+    <string name="reset">Reset</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- Number Guess -->
+    <string name="guess_prompt">Guess a number between 1 and 100</string>
+    <string name="guess_button">Guess</string>
+    <string name="too_high">📈 Too High! Try lower.</string>
+    <string name="too_low">📉 Too Low! Try higher.</string>
+    <string name="correct_guess">🎉 Correct! You got it in %d attempts!</string>
+    <string name="attempts_label">Attempts: %d</string>
+    <string name="new_game">New Game</string>
+    <string name="enter_guess">Enter your guess</string>
+    <string name="invalid_input">Please enter a valid number (1–100)</string>
+
+    <!-- Reflex -->
+    <string name="reflex_instructions">Wait for the button to turn GREEN, then tap as fast as you can!</string>
+    <string name="tap_here">Wait…</string>
+    <string name="tap_now">TAP NOW!</string>
+    <string name="too_early">Too early! Wait for green.</string>
+    <string name="reaction_time">Reaction time: %d ms</string>
+    <string name="best_time">Best time: %d ms</string>
+    <string name="no_best_time">Best time: —</string>
+    <string name="try_again">Try Again</string>
+    <string name="back">← Back</string>
+</resources>

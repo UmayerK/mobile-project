@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.assignment1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\tahri\.gradle\caches\8.8\transforms\39712cff182df9c2caaeae8408694407\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.assignment1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\tahri\.gradle\caches\8.8\transforms\39712cff182df9c2caaeae8408694407\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\tahri\.gradle\caches\8.8\transforms\39712cff182df9c2caaeae8408694407\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.assignment1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\tahri\.gradle\caches\8.8\transforms\39712cff182df9c2caaeae8408694407\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\tahri\.gradle\caches\8.8\transforms\39712cff182df9c2caaeae8408694407\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:4:5-24:19
+18        android:allowBackup="true"
+18-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\tahri\.gradle\caches\8.8\transforms\39712cff182df9c2caaeae8408694407\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:label="@string/app_name"
+22-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:6:9-41
+23        android:supportsRtl="true"
+23-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:7:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+25-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:8:9-65
+26        <activity
+26-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:10:9-17:20
+27            android:name="com.example.assignment1.MainActivity"
+27-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:11:13-41
+28            android:exported="true" >
+28-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:12:13-36
+29            <intent-filter>
+29-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:13:13-16:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:14:17-69
+30-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:14:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:15:17-77
+32-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:15:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:19:9-76
+36            android:name="com.example.assignment1.SnakeActivity"
+36-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:19:19-48
+37            android:exported="false" />
+37-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:19:49-73
+38        <activity
+38-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:20:9-80
+39            android:name="com.example.assignment1.TicTacToeActivity"
+39-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:20:19-52
+40            android:exported="false" />
+40-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:20:53-77
+41        <activity
+41-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:21:9-82
+42            android:name="com.example.assignment1.NumberGuessActivity"
+42-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:21:19-54
+43            android:exported="false" />
+43-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:21:55-79
+44        <activity
+44-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:22:9-77
+45            android:name="com.example.assignment1.ReflexActivity"
+45-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:22:19-49
+46            android:exported="false" />
+46-->C:\Users\tahri\OneDrive\Desktop\Assignment2\app\src\main\AndroidManifest.xml:22:50-74
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tahri\.gradle\caches\8.8\transforms\c7022b634c5c78524243f0ec6fd3ed4f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tahri\.gradle\caches\8.8\transforms\c7022b634c5c78524243f0ec6fd3ed4f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+50            android:authorities="com.example.assignment1.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tahri\.gradle\caches\8.8\transforms\c7022b634c5c78524243f0ec6fd3ed4f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tahri\.gradle\caches\8.8\transforms\c7022b634c5c78524243f0ec6fd3ed4f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tahri\.gradle\caches\8.8\transforms\c7022b634c5c78524243f0ec6fd3ed4f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tahri\.gradle\caches\8.8\transforms\c7022b634c5c78524243f0ec6fd3ed4f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tahri\.gradle\caches\8.8\transforms\c7022b634c5c78524243f0ec6fd3ed4f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\tahri\.gradle\caches\8.8\transforms\8719370c118a82758da6ca8210af1d95\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\tahri\.gradle\caches\8.8\transforms\8719370c118a82758da6ca8210af1d95\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\tahri\.gradle\caches\8.8\transforms\8719370c118a82758da6ca8210af1d95\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <!-- Back button -->
+    <Button
+        android:id="@+id/btnGuessBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:backgroundTint="#37474F"
+        android:textColor="@color/text_primary"
+        android:layout_gravity="start"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numguess_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Prompt -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guess_prompt"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Input -->
+    <EditText
+        android:id="@+id/etGuess"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_guess"
+        android:inputType="number"
+        android:textSize="24sp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:gravity="center"
+        android:backgroundTint="@color/accent"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Guess Button -->
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/guess_button"
+        android:textSize="18sp"
+        android:backgroundTint="@color/card_numguess"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Feedback -->
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/accent"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Attempts -->
+    <TextView
+        android:id="@+id/tvAttempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempts: 0"
+        android:textSize="18sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="32dp" />
+
+    <!-- New Game -->
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        android:textSize="16sp"
+        android:backgroundTint="#37474F"
+        android:textColor="@color/text_primary"
+        android:paddingHorizontal="32dp" />
+
+</LinearLayout>

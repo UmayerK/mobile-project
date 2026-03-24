@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.assignment1.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.assignment1.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-merged_res-29:\\layout_activity_tic_tac_toe.xml.flat",
+        "source": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-main-31:\\layout\\activity_tic_tac_toe.xml"
+    },
+    {
+        "merged": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-merged_res-29:\\layout_activity_snake.xml.flat",
+        "source": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-main-31:\\layout\\activity_snake.xml"
+    },
+    {
+        "merged": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-merged_res-29:\\layout_activity_reflex.xml.flat",
+        "source": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-main-31:\\layout\\activity_reflex.xml"
+    },
+    {
+        "merged": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-merged_res-29:\\layout_activity_number_guess.xml.flat",
+        "source": "C:\\Users\\tahri\\.gradle\\daemon\\8.8\\com.example.assignment1.app-main-31:\\layout\\activity_number_guess.xml"
+    }
+]

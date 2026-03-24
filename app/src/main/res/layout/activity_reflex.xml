@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <!-- Back button -->
+    <Button
+        android:id="@+id/btnReflexBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:backgroundTint="#37474F"
+        android:textColor="@color/text_primary"
+        android:layout_gravity="start"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reflex_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Instructions -->
+    <TextView
+        android:id="@+id/tvReflexInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reflex_instructions"
+        android:textSize="15sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:paddingHorizontal="16dp" />
+
+    <!-- Big Tap Target -->
+    <Button
+        android:id="@+id/btnTapTarget"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:text="@string/tap_here"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:backgroundTint="@color/reflex_idle"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Result -->
+    <TextView
+        android:id="@+id/tvReflexResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/accent"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Best Time -->
+    <TextView
+        android:id="@+id/tvBestTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_best_time"
+        android:textSize="18sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Try Again -->
+    <Button
+        android:id="@+id/btnTryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/try_again"
+        android:textSize="16sp"
+        android:backgroundTint="@color/card_reflex"
+        android:textColor="@color/text_primary"
+        android:paddingHorizontal="32dp" />
+
+</LinearLayout>
