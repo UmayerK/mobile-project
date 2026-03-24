@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
         CardView cardTicTacToe = findViewById(R.id.cardTicTacToe);
         CardView cardNumGuess = findViewById(R.id.cardNumGuess);
         CardView cardReflex = findViewById(R.id.cardReflex);
+        CardView cardMemory = findViewById(R.id.cardMemory);
+        CardView cardWhack = findViewById(R.id.cardWhack);
+        CardView cardMath = findViewById(R.id.cardMath);
+        CardView cardColor = findViewById(R.id.cardColor);
 
         cardSnake.setOnClickListener(v ->
                 startActivity(new Intent(this, SnakeActivity.class)));
@@ -28,5 +32,17 @@ public class MainActivity extends AppCompatActivity {
 
         cardReflex.setOnClickListener(v ->
                 startActivity(new Intent(this, ReflexActivity.class)));
+
+        cardMemory.setOnClickListener(v ->
+                startActivity(new Intent(this, MemoryActivity.class)));
+
+        cardWhack.setOnClickListener(v ->
+                startActivity(new Intent(this, WhackAMoleActivity.class)));
+
+        cardMath.setOnClickListener(v ->
+                startActivity(new Intent(this, QuickMathActivity.class)));
+
+        cardColor.setOnClickListener(v ->
+                startActivity(new Intent(this, ColorMatchActivity.class)));
     }
 }

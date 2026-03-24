@@ -20,6 +20,10 @@
         <activity android:name=".TicTacToeActivity" android:exported="false" />
         <activity android:name=".NumberGuessActivity" android:exported="false" />
         <activity android:name=".ReflexActivity" android:exported="false" />
+        <activity android:name=".MemoryActivity" android:exported="false" />
+        <activity android:name=".WhackAMoleActivity" android:exported="false" />
+        <activity android:name=".QuickMathActivity" android:exported="false" />
+        <activity android:name=".ColorMatchActivity" android:exported="false" />
 
     </application>
 

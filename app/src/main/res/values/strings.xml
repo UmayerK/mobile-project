@@ -12,6 +12,16 @@
     <string name="reflex_title">⚡ Reflex Test</string>
     <string name="reflex_desc">Tap when it lights up — how fast are you?</string>
 
+    <!-- New Games Hub Strings -->
+    <string name="memory_title">🧠 Memory Match</string>
+    <string name="memory_desc">Find all matching pairs of cards!</string>
+    <string name="whack_title">🔨 Whack-a-Mole</string>
+    <string name="whack_desc">Tap the moles as they pop up!</string>
+    <string name="math_title">➕ Quick Math</string>
+    <string name="math_desc">Solve as many equations as you can!</string>
+    <string name="color_title">🎨 Color Match</string>
+    <string name="color_desc">Match the word with the correct color!</string>
+
     <!-- Snake -->
     <string name="score_label">Score: %d</string>
     <string name="game_over">Game Over! Score: %d</string>
@@ -46,4 +56,9 @@
     <string name="no_best_time">Best time: —</string>
     <string name="try_again">Try Again</string>
     <string name="back">← Back</string>
+
+    <!-- Shared Game Strings -->
+    <string name="time_left">Time: %d</string>
+    <string name="level">Level: %d</string>
+    <string name="high_score">High Score: %d</string>
 </resources>

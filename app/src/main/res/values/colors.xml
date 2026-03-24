@@ -8,6 +8,12 @@
     <color name="card_numguess">#E94560</color>
     <color name="card_reflex">#F5A623</color>
 
+    <!-- New Game Card Colors -->
+    <color name="card_memory">#4A90E2</color>
+    <color name="card_whack">#7ED321</color>
+    <color name="card_math">#BD10E0</color>
+    <color name="card_color">#F8E71C</color>
+
     <color name="text_primary">#FFFFFF</color>
     <color name="text_secondary">#B0B0C0</color>
     <color name="accent">#00D2FF</color>
